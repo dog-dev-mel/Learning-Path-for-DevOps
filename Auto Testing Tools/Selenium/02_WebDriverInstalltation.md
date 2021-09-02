@@ -1,5 +1,25 @@
 ## 2. Selenium WebDriver Installation
 
+WebDriver is a remote control **interface** that enables introspection and control of user agents.
+
+**Local Model:**
+
+WebDriver(Bindings+Support classes)======**Driver(ChromeDriver/GeckoDriver)======Browser**
+
+**Remote Single node Model:**
+
+WebDriver(Bindings+Support classes)======**Remote WebDriver======Driver(ChromeDriver/GeckoDriver)======Browser**
+
+**Remote Distributed computing Model**：
+
+WebDriver(Bindings+Support classes)======Selenium Server or Grid======**Driver(ChromeDriver/GeckoDriver)======Browser**
+
+**!!!!!!Note**:
+HOST SYSTEM will be composed of components in overstriking words.
+
+
+### Installing Steps:
+
 1. Installing Selenium libraries:
     Python: pip install selenium
 

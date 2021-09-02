@@ -20,6 +20,15 @@
 <li><p>Selenium Grid: It can run scripts on multiple machines.</p></li>
 </ul>
 <h2 id="selenium-webdriver-installation">2. Selenium WebDriver Installation</h2>
+<p>WebDriver is a remote control <strong>interface</strong> that enables introspection and control of user agents.</p>
+<p><strong>Local Model:</strong></p>
+<p>WebDriver(Bindings+Support classes)======<strong>Driver(ChromeDriver/GeckoDriver)======Browser</strong></p>
+<p><strong>Remote Single node Model:</strong></p>
+<p>WebDriver(Bindings+Support classes)======<strong>Remote WebDriver======Driver(ChromeDriver/GeckoDriver)======Browser</strong></p>
+<p><strong>Remote Distributed computing Model</strong>：</p>
+<p>WebDriver(Bindings+Support classes)======Selenium Server or Grid======<strong>Driver(ChromeDriver/GeckoDriver)======Browser</strong></p>
+<p><strong>!!!!!!Note</strong>: HOST SYSTEM will be composed of components in overstriking words.</p>
+<h3 id="installing-steps">Installing Steps:</h3>
 <ol type="1">
 <li><p>Installing Selenium libraries: Python: pip install selenium</p></li>
 <li>Installing browser drivers:
@@ -45,3 +54,7 @@
 <p>最周，脚本中直接调用即可，不需指定路径。</p></li>
 </ol>
 <h2 id="selenium-scripts">3. Selenium Scripts</h2>
+<p>There are three models introduced in section 2. I will focus on the <strong>local model</strong> in this repository and maybe add a simple distributed computing model sample if I can build up a distributed computing testing bed.</p>
+<pre><code>var add2 = function(number) {
+  return number + 2;
+}</code></pre>
