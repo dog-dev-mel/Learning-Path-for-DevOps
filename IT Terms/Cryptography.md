@@ -22,5 +22,9 @@ Other explanation about Irreversible encryption:
 A cryptographic process that transforms data deterministically to a form from which the original data cannot be recovered, even by those who have full knowledge of the method of encryption. The process may be used to protect stored passwords in a system where the password offered is first encrypted before it is matched against the stored encrypted password. Illegal access to the stored password therefore does not permit access to the system.
 
 https://www.ssl2buy.com/wiki/symmetric-vs-asymmetric-encryption-what-are-differences
+
+https://www.jianshu.com/p/0ef46bef9ddd
+
 https://zhuanlan.zhihu.com/p/30573146
+
 https://www.cnblogs.com/luminji/archive/2011/06/01/2065438.html
