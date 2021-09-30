@@ -4,7 +4,7 @@ Storing encrypted passwords in a way that is reversible means that the encrypted
 It includes **symmetrical encryption** and **asymmetrical encryption**.
 
 
-##　**symmetrical encryption**
+## **symmetrical encryption**
 This is the simplest kind of encryption that involves only one secret key to cipher and decipher information. Symmetric encryption is an old and best-known technique. It uses a secret key that can either be a number, a word or a string of random letters. It is a blended with the plain text of a message to change the content in a particular way. The sender and the recipient should know the secret key that is used to encrypt and decrypt all the messages. Blowfish, AES, RC4, DES, RC5, and RC6 are examples of symmetric encryption. The most widely used symmetric algorithm is AES-128, AES-192, and AES-256.
 
 The main disadvantage of the symmetric key encryption is that all parties involved have to exchange the key used to encrypt the data before they can decrypt it.
